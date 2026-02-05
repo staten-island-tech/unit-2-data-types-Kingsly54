@@ -67,9 +67,20 @@ print(Total)'''
 Number=int(input("What is your number"))
 factors(Number)'''
 
-    
 
-
-
-
+x="number1"
+def factors(x):
+   print(x)
+   for i in range(1, x + 1):
+       if x % i == 0:
+           print(i)
+def factor2(y):
+   print(y)
+   for i in range(1, y + 1):
+       if y % i == 0:
+           print(i)
+Number=int(input("1st number:"))
+Number2=int(input("2nd number:"))
+common= [factors(Number) and factor2(Number2)]
+print(common)
 
