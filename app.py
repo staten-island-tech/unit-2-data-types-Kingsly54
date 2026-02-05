@@ -47,14 +47,7 @@ print(Total)'''
 
 Number=int(input("What is your number"))
 factors(Number)'''
-def factors(x):
-   print(x)
-   for i in range(1, x + 1):
-       if x % i == 0:
-           print(i)
 
-Number=int("16")
-factors(Number)
     
 
 
