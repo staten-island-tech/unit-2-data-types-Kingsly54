@@ -40,7 +40,7 @@ if number % 2 == 0:
     print("even")
 else: 
     print("odd")'''
-bill=float(input('Subtotal'))
+""" bill=float(input("subtotal"))
 Quality=input('Service quality')
 x="tippercentage"
 if Quality=="bad":
@@ -53,34 +53,37 @@ elif Quality=="Good":
     x=.2*bill
 elif Quality=="Great":
     print(x)
-    x=.25*(bill)
+    x=.25*bill
 Total=bill+x
 Quality="Great"
-print(Total)
+print(Total) """
 
-'''def factors(x):
+'''
+def factors(x):
    print(x)
    for i in range(1, x + 1):
        if x % i == 0:
            print(i)
 
 Number=int(input("What is your number"))
-factors(Number)'''
+factors(Number)
+'''
 
 
-'''x="number1"
+
+ 
+x="number1"
 def factors(x):
    print(x)
    for i in range(1, x + 1):
        if x % i == 0:
            print(i)
-def factor2(y):
-   print(y)
-   for i in range(1, y + 1):
-       if y % i == 0:
-           print(i)
 Number=int(input("1st number:"))
 Number2=int(input("2nd number:"))
-common= [factors(Number) and factor2(Number2)]
-print(common)'''
+list1=[factors(Number)]
+list2=[factors(Number2)]
+lists=(list1 and list2)
+dupe=lists.split( )
+rdupes=dupe(dict.fromkeys(lists))
+print(rdupes) 
 
