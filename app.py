@@ -75,7 +75,7 @@ def factors(x):
    for i in range(1, x + 1):
        if x % i == 0:
            print(i)
-           return(i)
+           
 
 Number=int(input("1st number:"))
 Number2=int(input("2nd number:"))
