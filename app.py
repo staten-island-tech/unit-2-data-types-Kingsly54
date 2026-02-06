@@ -40,7 +40,7 @@ if number % 2 == 0:
     print("even")
 else: 
     print("odd")'''
-bill=float(input('Subtotal'))
+'''bill=float(input('Subtotal'))
 Quality=input('Service quality')
 x="tippercentage"
 if Quality=="bad":
@@ -56,7 +56,7 @@ elif Quality=="Great":
     x=.25*(bill)
 Total=bill+x
 Quality="Great"
-print(Total)
+print(Total)'''
 
 '''def factors(x):
    print(x)
@@ -68,19 +68,17 @@ Number=int(input("What is your number"))
 factors(Number)'''
 
 
-'''x="number1"
+x="number1"
+
 def factors(x):
    print(x)
    for i in range(1, x + 1):
        if x % i == 0:
            print(i)
-def factor2(y):
-   print(y)
-   for i in range(1, y + 1):
-       if y % i == 0:
-           print(i)
+           return(i)
+
 Number=int(input("1st number:"))
 Number2=int(input("2nd number:"))
-common= [factors(Number) and factor2(Number2)]
-print(common)'''
+com=set(factors(Number)) and set(factors(Number2))
 
+print(com)
