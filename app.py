@@ -33,8 +33,15 @@ print(values)
 for i in values:
     print(i)
 print(values[7])'''
-
-
+'''def hh(x):              
+    sentence=x
+    ff=sentence.split()
+    cou=0
+    for i in ff: 
+        cou+=1
+    print(cou)
+ask=input("print sentence")
+hh(ask)'''
 '''number=56
 if number % 2 == 0:
     print("even")
@@ -68,17 +75,17 @@ Number=int(input("What is your number"))
 factors(Number)'''
 
 
-x="number1"
+y="number1"
 
 def factors(x):
    print(x)
    for i in range(1, x + 1):
-       if x % i == 0:
+        if x % i == 0:
            print(i)
            
-
+           
 Number=int(input("1st number:"))
 Number2=int(input("2nd number:"))
-com=set(factors(Number)) and set(factors(Number2))
-
-print(com)
+factors(Number) 
+factors(Number2)
+ 
