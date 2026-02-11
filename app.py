@@ -74,10 +74,7 @@ print(Total)'''
 Number=int(input("What is your number"))
 factors(Number)'''
 
-
-y="number1"
-
-def factors(x):
+'''def factors(x):
    print(x)
    for i in range(1, x + 1):
         if x % i == 0:
@@ -86,6 +83,18 @@ def factors(x):
            
 Number=int(input("1st number:"))
 Number2=int(input("2nd number:"))
-factors(Number) 
-factors(Number2)
- 
+com=set(factors(Number) and factors(Number2))
+print(com)
+
+for i in com:
+    print(com[-1])'''
+
+
+def factors(x):
+   print(x)
+   for i in range(1, x + 1):
+        if x % i == 0:
+           print(i)
+def common():
+    for x in input("1st Number") and input("2nd Number"):
+        print(x)
