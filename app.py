@@ -82,4 +82,4 @@ Num2 = int(input("2nd number:"))
 for i in range(1, Num1+1):
     if Num1 % i == 0 and Num2 % i == 0:
         GCF = i
-print(GCF)
+print(f"The GCF is {GCF}")
