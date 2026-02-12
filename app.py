@@ -74,27 +74,12 @@ print(Total)'''
 Number=int(input("What is your number"))
 factors(Number)'''
 
-'''def factors(x):
-   print(x)
-   for i in range(1, x + 1):
-        if x % i == 0:
-           print(i)
-           
-           
-Number=int(input("1st number:"))
-Number2=int(input("2nd number:"))
-com=set(factors(Number) and factors(Number2))
-print(com)
 
-for i in com:
-    print(com[-1])'''
+GCF = 0
+Num1 = int(input("1st number:"))
+Num2 = int(input("2nd number:"))
 
-
-def factors(x):
-   print(x)
-   for i in range(1, x + 1):
-        if x % i == 0:
-           print(i)
-def common():
-    for x in input("1st Number") and input("2nd Number"):
-        print(x)
+for i in range(1, Num1+1):
+    if Num1 % i == 0 and Num2 % i == 0:
+        GCF = i
+print(GCF)
