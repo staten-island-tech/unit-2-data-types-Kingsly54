@@ -72,15 +72,14 @@ print(Total)'''
            print(i)
 
 Number=int(input("What is your number"))
-factors(Number)
-'''
-y=int(input("1st number"))
-x=int(input("2nd number"))
-def factors(x):
-   for i in range(1, x and y + 1):
-       if x % i == 0 and y % i == 0:
-          print(i)
-          
-        
-factors(x)
-           
+factors(Number)'''
+
+
+GCF = 0
+Num1 = int(input("1st number:"))
+Num2 = int(input("2nd number:"))
+
+for i in range(1, Num1+1):
+    if Num1 % i == 0 and Num2 % i == 0:
+        GCF = i
+print(GCF)
